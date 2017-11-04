@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vertex - Калькулятор</title>
+	<meta name="description" content="Vertex - Калькулятор" />
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container-outer">
+			<div class="logo">
+				<a href="#">
+					<img src="img/logo-color.svg" alt="logo">
+				</a>
+			</div>
+			<div class="block-info">
+				<div class="tagline">
+					<span>Отопление, вентиляция, кондиционирование,<br>
+						котельные, водоснабжение и канализация
+					</span>
+				</div>
+				<div class="communications">
+					<div class="number">
+						<a href="tel:+7(495)5555555">+7 (495) 555-55-55</a>
+					</div>
+					<div class="button-order">
+						<a data-fancybox data-src="#general-modal" href="javascript:;">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="nav">
+		<div class="container-outer">
+			<span class="m-menu-button fa-bars">Меню</span>
+			<ul class="main-nav">
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Галерея работ</a></li>
+				<li><a href="#">Калькулятор</a></li>
+				<li><a href="#">Полезное</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+	<main class="main-inner">
+		<div class="breadcrumbs-container">
+			<div class="container-outer">
+				<div class="container">
+					<ul class="breadcrumbs">
+						<li><a href="#">Главная</a></li>
+						<li class="active">Калькулятор</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h1>Калькулятор</h1>
+
+	</main>
+	<footer class="footer">
+		<div class="container-outer">
+			<div class="column1">
+				<div class="logo">
+					<a href="#"><img src="img/logo-white.svg" alt="logo"></a>
+				</div>
+				<div class="footer-map">
+					<span class="info-map">Адрес: Москва, ул Тобольская, 137</span>
+					<span class="map"><a data-fancybox="" data-src="#map-ride" href="javascript:;">Схема проезда</a></span>
+				</div>
+			</div>
+			<ul class="block-column">
+				<li class="column2">
+					<span class="teaser-column">Вертекс-инжиниринг</span>
+					<ul class="list-footer">
+						<li>
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Услуги</a>
+						</li>
+						<li>
+							<a href="#">Галерея работ</a>
+						</li>
+						<li>
+							<a href="#">Калькулятор</a>
+						</li>
+						<li>
+							<a href="#">Полезная информация</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</li>
+				<li class="column3">
+					<span class="teaser-column">Услуги</span>
+					<ul class="list-footer">
+						<li>
+							<a href="#">Отопление</a>
+						</li>
+						<li>
+							<a href="#">Кондиционирование</a>
+						</li>
+						<li>
+							<a href="#">Водоснабжение и канализация</a>
+						</li>
+						<li>
+							<a href="#">Вентиляция</a>
+						</li>
+						<li>
+							<a href="#">Котельные</a>
+						</li>
+					</ul>
+				</li>
+				<li class="column4">
+					<span class="teaser-column">Как с нами связаться</span>
+					<ul class="list-footer">
+						<li>
+							<a href="tel:+7(495)5555555">Тел: +7 (495) 555-55-55</a>
+						</li>
+						<li class="button-order">
+							<a data-fancybox data-src="#general-modal" href="javascript:;"><i class="fa fa-phone" aria-hidden="true"></i>Заказать звонок</a>
+						</li>
+						<li class="mail">
+							<span>Email: </span>
+							<a href="mailto:info@mail.ru">info@mail.ru</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<div class="container-outer">
+				<span>
+					© 2017 «Вертекс-Инжиниринг» Все права защищены.
+				</span>
+			</div>
+		</div>
+	</footer>
+	<div style="display: none;" id="general-modal">
+		<form id="general-modal-form" action="">
+			<span class="title">Заказать звонок</span>
+			<div class="row">
+				<input type="text" name="username" id="username" placeholder="Имя">
+				<label for="username">Имя</label>
+			</div>
+			<div class="row">
+				<input type="tel" name="telephone" id="telephone" required placeholder="Номер телефона">
+				<label for="telephone">Номер телефона</label>
+			</div>
+			<div class="row">
+				<textarea name="comment" id="comment" rows="1" placeholder="Комментарий"></textarea>
+				<label for="comment">Комментарий</label>
+			</div>
+			<div class="submit-application-form">
+				<input type="submit" name="submit" value="Заказать звонок">
+			</div>
+		</form>
+	</div>
+	<div style="display: none;" id="map-ride">
+		<div id="map-ride-form">
+			<span class="title">Как проехать в "Вертекс Инжиниринг" на общественном транспорте</span>
+			<div id="map-row" style="width: 100%;">
+				<img src="img/map.jpg" alt="Карта проезда">
+			</div>
+			<ul class="list-map">
+				<li>1. От станции метро «Юго-Западная».<br>
+				Маршрут рейсового автобуса № 630 до конечной остановки пл. «Очаково». Время в пути 20 минут. Далее пешком.  Пройти по подземному переходу под платформой, поднявшись по ступенькам, повернуть налево. Далее идти согласно указанию на схеме.</li>
+				<li>2. От станции метро «Киевская».<br>
+				Следовать на электричке до платформы «Очаково» с Киевского вокзала. Время в пути 15 минут. Спуститься с платформы вниз, пройти по подземному переходу направо, поднявшись по ступенькам, повернуть налево. Далее идти согласно указанию на схеме.</li>
+				<li>3. От станции метро «Кунцевская».<br>
+				Маршрут автобуса и маршрутных такси №11 до конечной остановки пл.«Очаково». Далее идти согласно указанию на схеме.
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div style="display: none;" id="following-modal">
+		<span class="title">Спасибо за ваш заказ</span>
+		<p>Менеджер свяжется с Вами<br> в течении 5 минут!</p>
+		<div class="close-button">
+			<a href="#">Закрыть</a>
+		</div>
+	</div>
+	<script src="js/libs.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
